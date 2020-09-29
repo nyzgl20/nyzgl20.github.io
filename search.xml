@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>MYSQL 基本操作</title>
-    <url>/2020/09/28/MYSQL/</url>
+    <title>ORACLE 基本操作</title>
+    <url>/2020/09/28/ORACLE/</url>
     <content><![CDATA[<h2 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h2><h3 id="1、创建数据库"><a href="#1、创建数据库" class="headerlink" title="1、创建数据库"></a>1、创建数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ CREATE DATABASE database-name</span><br></pre></td></tr></table></figure>]]></content>
   </entry>
   <entry>
-    <title>ORACLE 基本操作</title>
-    <url>/2020/09/28/ORACLE/</url>
+    <title>MYSQL 基本操作</title>
+    <url>/2020/09/28/MYSQL/</url>
     <content><![CDATA[<h2 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h2><h3 id="1、创建数据库"><a href="#1、创建数据库" class="headerlink" title="1、创建数据库"></a>1、创建数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ CREATE DATABASE database-name</span><br></pre></td></tr></table></figure>]]></content>
   </entry>
   <entry>
