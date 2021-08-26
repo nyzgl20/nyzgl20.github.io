@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>MYSQL 基本操作</title>
-    <url>/2020/09/28/MYSQL/</url>
-    <content><![CDATA[<h2 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h2><h3 id="1、创建数据库"><a href="#1、创建数据库" class="headerlink" title="1、创建数据库"></a>1、创建数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ CREATE DATABASE database-name</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>看到就是学到</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SQL SERVER 基本操作</title>
-    <url>/2020/09/28/sqlserver/</url>
-    <content><![CDATA[<h2 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h2><h3 id="1、创建数据库"><a href="#1、创建数据库" class="headerlink" title="1、创建数据库"></a>1、创建数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ CREATE DATABASE database-name</span><br></pre></td></tr></table></figure>
-<h3 id="2、删除数据库"><a href="#2、删除数据库" class="headerlink" title="2、删除数据库"></a>2、删除数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ drop database dbname</span><br></pre></td></tr></table></figure>
-<h3 id="2、删除数据库-1"><a href="#2、删除数据库-1" class="headerlink" title="2、删除数据库"></a>2、删除数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ drop database dbname</span><br></pre></td></tr></table></figure>
-<h3 id="3、创建新表"><a href="#3、创建新表" class="headerlink" title="3、创建新表"></a>3、创建新表</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ create table tabname(列名 类型 约束，限制)</span><br></pre></td></tr></table></figure>
-<h3 id="4、根据已有的表创建新表"><a href="#4、根据已有的表创建新表" class="headerlink" title="4、根据已有的表创建新表"></a>4、根据已有的表创建新表</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ create table tab_new like tab_old (使用旧表创建新表)</span><br><span class="line">$ create table tab_new as select col1,col2… from tab_old definition only</span><br></pre></td></tr></table></figure>
-<h3 id="5、删除新表"><a href="#5、删除新表" class="headerlink" title="5、删除新表"></a>5、删除新表</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ drop table tabname</span><br></pre></td></tr></table></figure>
-<h3 id="6、增加一个列"><a href="#6、增加一个列" class="headerlink" title="6、增加一个列"></a>6、增加一个列</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ Alter table tabname add column col <span class="built_in">type</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-  </entry>
-  <entry>
     <title>保安日记</title>
     <url>/2020/09/28/%E4%BF%9D%E5%AE%89%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<h3 id="保安日记-3月2日-阴"><a href="#保安日记-3月2日-阴" class="headerlink" title="保安日记 3月2日 阴"></a>保安日记 3月2日 阴</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">我不知道为什么，小区整顿说要提升员工文化素质，</span><br><span class="line"></span><br><span class="line">于是让大家每天练习英语并打卡，可是我会说的只有几句</span><br><span class="line"></span><br><span class="line">I like you，I love you ，I miss you very much.</span><br><span class="line"></span><br><span class="line">我会好好学英语的，然后说给你听，想你了，over。</span><br></pre></td></tr></table></figure>
@@ -60,6 +35,31 @@
       <categories>
         <category>娱乐</category>
       </categories>
+  </entry>
+  <entry>
+    <title>SQL SERVER 基本操作</title>
+    <url>/2020/09/28/sqlserver/</url>
+    <content><![CDATA[<h2 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h2><h3 id="1、创建数据库"><a href="#1、创建数据库" class="headerlink" title="1、创建数据库"></a>1、创建数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ CREATE DATABASE database-name</span><br></pre></td></tr></table></figure>
+<h3 id="2、删除数据库"><a href="#2、删除数据库" class="headerlink" title="2、删除数据库"></a>2、删除数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ drop database dbname</span><br></pre></td></tr></table></figure>
+<h3 id="2、删除数据库-1"><a href="#2、删除数据库-1" class="headerlink" title="2、删除数据库"></a>2、删除数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ drop database dbname</span><br></pre></td></tr></table></figure>
+<h3 id="3、创建新表"><a href="#3、创建新表" class="headerlink" title="3、创建新表"></a>3、创建新表</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ create table tabname(列名 类型 约束，限制)</span><br></pre></td></tr></table></figure>
+<h3 id="4、根据已有的表创建新表"><a href="#4、根据已有的表创建新表" class="headerlink" title="4、根据已有的表创建新表"></a>4、根据已有的表创建新表</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ create table tab_new like tab_old (使用旧表创建新表)</span><br><span class="line">$ create table tab_new as select col1,col2… from tab_old definition only</span><br></pre></td></tr></table></figure>
+<h3 id="5、删除新表"><a href="#5、删除新表" class="headerlink" title="5、删除新表"></a>5、删除新表</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ drop table tabname</span><br></pre></td></tr></table></figure>
+<h3 id="6、增加一个列"><a href="#6、增加一个列" class="headerlink" title="6、增加一个列"></a>6、增加一个列</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ Alter table tabname add column col <span class="built_in">type</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>MYSQL 基本操作</title>
+    <url>/2020/09/28/MYSQL/</url>
+    <content><![CDATA[<h2 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h2><h3 id="1、创建数据库"><a href="#1、创建数据库" class="headerlink" title="1、创建数据库"></a>1、创建数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ CREATE DATABASE database-name</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>看到就是学到</tag>
+      </tags>
   </entry>
   <entry>
     <title>舔狗日记</title>
