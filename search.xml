@@ -4,6 +4,12 @@
     <title>MYSQL 基本操作</title>
     <url>/2020/09/28/MYSQL/</url>
     <content><![CDATA[<h2 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h2><h3 id="1、创建数据库"><a href="#1、创建数据库" class="headerlink" title="1、创建数据库"></a>1、创建数据库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ CREATE DATABASE database-name</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>看到就是学到</tag>
+      </tags>
   </entry>
   <entry>
     <title>SQL SERVER 基本操作</title>
@@ -15,16 +21,9 @@
 <h3 id="4、根据已有的表创建新表"><a href="#4、根据已有的表创建新表" class="headerlink" title="4、根据已有的表创建新表"></a>4、根据已有的表创建新表</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ create table tab_new like tab_old (使用旧表创建新表)</span><br><span class="line">$ create table tab_new as select col1,col2… from tab_old definition only</span><br></pre></td></tr></table></figure>
 <h3 id="5、删除新表"><a href="#5、删除新表" class="headerlink" title="5、删除新表"></a>5、删除新表</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ drop table tabname</span><br></pre></td></tr></table></figure>
 <h3 id="6、增加一个列"><a href="#6、增加一个列" class="headerlink" title="6、增加一个列"></a>6、增加一个列</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ Alter table tabname add column col <span class="built_in">type</span></span><br></pre></td></tr></table></figure>]]></content>
-  </entry>
-  <entry>
-    <title>舔狗日记</title>
-    <url>/2020/09/28/%E8%88%94%E7%8B%97%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<h3 id="舔狗日记-3-01-️-阴"><a href="#舔狗日记-3-01-️-阴" class="headerlink" title="舔狗日记 3.01 ️ 阴"></a>舔狗日记 3.01 ️ 阴</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">她好像从来没有说过爱我，我搜索了一下关键字爱。</span><br><span class="line"></span><br><span class="line">在我们的聊天记录里，她只说过一次。借我一下爱奇艺会员。</span><br></pre></td></tr></table></figure>
-<h3 id="舔狗日记-3-02-多云"><a href="#舔狗日记-3-02-多云" class="headerlink" title="舔狗日记 3.02 多云"></a>舔狗日记 3.02 多云</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">昨天我还是照常给你发了好多消息 今天你终于回了我五个字“烦不烦啊你” </span><br><span class="line"></span><br><span class="line">你开始关心我觉不觉得烦了 我太感动了 受宠若惊的 不烦不烦 你天天骂我我都不会觉得你烦 ​</span><br></pre></td></tr></table></figure>
-<h3 id="舔狗日记-3-03-多云转雨"><a href="#舔狗日记-3-03-多云转雨" class="headerlink" title="舔狗日记 3.03 多云转雨"></a>舔狗日记 3.03 多云转雨</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">听着窗外稀稀拉拉的雨声 我忽然想到你对我说的话 </span><br><span class="line"></span><br><span class="line">对啊 生孩子本来就够痛苦了 还管是谁的干嘛呢。</span><br></pre></td></tr></table></figure>
-<h3 id="舔狗日记-3-04-多云转晴"><a href="#舔狗日记-3-04-多云转晴" class="headerlink" title="舔狗日记 3.04 多云转晴"></a>舔狗日记 3.04 多云转晴</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">现在已经凌晨12点了，我望着手机屏幕迟迟没有她的消息：你知道吗？</span><br><span class="line"></span><br><span class="line">我等了一晚上你的消息。她终于回复我了：是我让你等的？</span><br></pre></td></tr></table></figure>
-<h3 id="舔狗日记-3-05-多云"><a href="#舔狗日记-3-05-多云" class="headerlink" title="舔狗日记 3.05 多云"></a>舔狗日记 3.05 多云</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">她从来不说想我 聊天记录搜索了一下“想你”两个字</span><br><span class="line"></span><br><span class="line">全都是:“那波你怎么不上啊 你在想你妈呢”</span><br></pre></td></tr></table></figure>
-]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
   </entry>
   <entry>
     <title>保安日记</title>
@@ -58,5 +57,21 @@
 <h3 id="保安日记-3月29日-阴"><a href="#保安日记-3月29日-阴" class="headerlink" title="保安日记 3月29日 阴"></a>保安日记 3月29日 阴</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">我希望每天早上你们都会对我说：“宝 早安”而并不是“晚 保安”</span><br></pre></td></tr></table></figure>
 <h3 id="保安日记-3月30日-阴"><a href="#保安日记-3月30日-阴" class="headerlink" title="保安日记 3月30日 阴"></a>保安日记 3月30日 阴</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">昨天晚上保安亭被风吹倒了 我的职业生涯毁了 我不知道该怎么办</span><br></pre></td></tr></table></figure>
 <h3 id="保安日记-完结-3月31日-阴"><a href="#保安日记-完结-3月31日-阴" class="headerlink" title="保安日记(完结) 3月31日 阴"></a>保安日记(完结) 3月31日 阴</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">保安亭塌了，我的职业生涯结束了。</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>娱乐</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>舔狗日记</title>
+    <url>/2020/09/28/%E8%88%94%E7%8B%97%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<h3 id="舔狗日记-3-01-️-阴"><a href="#舔狗日记-3-01-️-阴" class="headerlink" title="舔狗日记 3.01 ️ 阴"></a>舔狗日记 3.01 ️ 阴</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">她好像从来没有说过爱我，我搜索了一下关键字爱。</span><br><span class="line"></span><br><span class="line">在我们的聊天记录里，她只说过一次。借我一下爱奇艺会员。</span><br></pre></td></tr></table></figure>
+<h3 id="舔狗日记-3-02-多云"><a href="#舔狗日记-3-02-多云" class="headerlink" title="舔狗日记 3.02 多云"></a>舔狗日记 3.02 多云</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">昨天我还是照常给你发了好多消息 今天你终于回了我五个字“烦不烦啊你” </span><br><span class="line"></span><br><span class="line">你开始关心我觉不觉得烦了 我太感动了 受宠若惊的 不烦不烦 你天天骂我我都不会觉得你烦 ​</span><br></pre></td></tr></table></figure>
+<h3 id="舔狗日记-3-03-多云转雨"><a href="#舔狗日记-3-03-多云转雨" class="headerlink" title="舔狗日记 3.03 多云转雨"></a>舔狗日记 3.03 多云转雨</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">听着窗外稀稀拉拉的雨声 我忽然想到你对我说的话 </span><br><span class="line"></span><br><span class="line">对啊 生孩子本来就够痛苦了 还管是谁的干嘛呢。</span><br></pre></td></tr></table></figure>
+<h3 id="舔狗日记-3-04-多云转晴"><a href="#舔狗日记-3-04-多云转晴" class="headerlink" title="舔狗日记 3.04 多云转晴"></a>舔狗日记 3.04 多云转晴</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">现在已经凌晨12点了，我望着手机屏幕迟迟没有她的消息：你知道吗？</span><br><span class="line"></span><br><span class="line">我等了一晚上你的消息。她终于回复我了：是我让你等的？</span><br></pre></td></tr></table></figure>
+<h3 id="舔狗日记-3-05-多云"><a href="#舔狗日记-3-05-多云" class="headerlink" title="舔狗日记 3.05 多云"></a>舔狗日记 3.05 多云</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">她从来不说想我 聊天记录搜索了一下“想你”两个字</span><br><span class="line"></span><br><span class="line">全都是:“那波你怎么不上啊 你在想你妈呢”</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>娱乐</category>
+      </categories>
   </entry>
 </search>
